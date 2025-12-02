@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "identifier": "acme-rust-dev-2025-001",
+  "title": "Senior Rust Developer - Nostr Infrastructure",
+  "description": "## About the Role\n\nWe're seeking an experienced Rust developer to build next-generation decentralized infrastructure on Nostr. You'll work on high-performance relay implementations, cryptographic protocols, and Lightning Network integrations.\n\n## What You'll Do\n\n- Design and implement Nostr relay optimizations\n- Build Lightning-enabled payment flows\n- Develop client SDKs and developer tools\n- Contribute to NIP specifications\n- Mentor junior engineers\n\n## Requirements\n\n- 5+ years of Rust experience in production\n- Deep understanding of async/await patterns\n- Experience with cryptographic primitives\n- Familiarity with WebSockets and networking protocols\n- Bonus: Previous work on Bitcoin/Lightning/Nostr\n\n## What We Offer\n\n- Competitive salary + equity\n- Remote-first culture\n- Conference travel budget\n- Open source contribution time\n- Latest hardware\n\n## About Us\n\nAcme Corp is building the future of decentralized social media. We're a fully remote team of 25 engineers, designers, and researchers passionate about user sovereignty and open protocols.",
+  "datePosted": "2025-01-15",
+  "validThrough": "2025-03-15",
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "Acme Corp",
+    "url": "https://acme.example.com",
+    "logo": "https://acme.example.com/logo.png",
+    "sameAs": [
+      "https://twitter.com/acmecorp",
+      "https://github.com/acmecorp"
+    ]
+  },
+  "jobLocation": [
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "San Francisco",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      }
+    }
+  ],
+  "employmentType": [
+    "FULL_TIME"
+  ],
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 150000,
+      "maxValue": 220000,
+      "unitText": "YEAR"
+    }
+  },
+  "jobLocationType": [
+    "TELECOMMUTE"
+  ],
+  "qualifications": "Bachelor's degree in Computer Science or equivalent experience. 5+ years of professional Rust development. Strong understanding of distributed systems and cryptography.",
+  "responsibilities": "Design and implement high-performance Nostr relays. Build Lightning payment integrations. Develop client libraries and SDKs. Review code and mentor team members. Contribute to protocol specifications.",
+  "skills": [
+    "Rust",
+    "Tokio",
+    "WebSockets",
+    "Cryptography",
+    "Nostr Protocol",
+    "Lightning Network",
+    "Bitcoin",
+    "Distributed Systems"
+  ],
+  "workHours": "Flexible hours with 4-hour overlap in UTC-8 timezone",
+  "applicantLocationRequirements": [
+    {
+      "@type": "Country",
+      "name": "US"
+    },
+    {
+      "@type": "Country",
+      "name": "CA"
+    },
+    {
+      "@type": "Country",
+      "name": "GB"
+    },
+    {
+      "@type": "Country",
+      "name": "DE"
+    }
+  ],
+  "jobBenefits": [
+    "Health insurance",
+    "Dental insurance",
+    "401(k) with match",
+    "Unlimited PTO",
+    "Remote work",
+    "Equipment stipend",
+    "Conference budget",
+    "Learning budget"
+  ],
+  "experienceRequirements": {
+    "@type": "OccupationalExperienceRequirements",
+    "monthsOfExperience": 60
+  },
+  "nostrEmployerPubkey": "npub1acme...",
+  "applyViaNostr": true,
+  "lightningAddress": "jobs@acme.example.com",
+  "nip05Verified": "acme@acme.example.com"
+}

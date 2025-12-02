@@ -1,0 +1,17 @@
+{
+  "type": "JobPosting",
+  "version": 1,
+  "title": "Senior Rust Developer",
+  "company": "Nostr Labs",
+  "location": "Remote",
+  "employment_type": "Full-time",
+  "description": "Build decentralized job marketplace on Nostr protocol using Rust. Work with cutting-edge P2P technology and help shape the future of censorship-resistant job platforms.",
+  "skills": ["Rust", "Nostr", "Distributed Systems", "WebAssembly"],
+  "salary": {
+    "currency": "USD",
+    "min": 120000,
+    "max": 180000
+  },
+  "valid_through": "2025-12-31",
+  "lightning_address": "jobs@nostrlabs.com"
+}

@@ -1,0 +1,72 @@
+# Human Software Engineer (On-site Contractor)
+## Description
+```html
+<!-- Example 1: Human Software Engineer (On-site Contractor) -->
+<html>
+  <head>
+    <title>Software Engineer - Contractor</title>
+    <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org/",
+      "@type" : "JobPosting",
+      "title" : "Software Engineer",
+      "description" : "<p>Google aspires to be an organization that reflects the globally diverse audience that our products and technology serve. We believe that in addition to hiring the best talent, a diversity of perspectives, ideas and cultures leads to the creation of better products and services.</p>",
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "Google",
+        "value": "1234567"
+      },
+      "datePosted" : "2024-01-18",
+      "validThrough" : "2024-03-18T00:00",
+      "employmentType" : "CONTRACTOR",
+      "eligibleWorkerType": ["Human"],
+      "hiringOrganization" : {
+        "@type" : "Organization",
+        "name" : "Google",
+        "sameAs" : "https://www.google.com",
+        "logo" : "https://www.example.com/images/logo.png"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1600 Amphitheatre Pkwy",
+          "addressLocality": "Mountain View",
+          "addressRegion": "CA",
+          "postalCode": "94043",
+          "addressCountry": "US"
+        }
+      },
+      "baseSalary": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": {
+          "@type": "QuantitativeValue",
+          "value": 40.00,
+          "unitText": "HOUR"
+        }
+      },
+      "requiredCapabilities": [
+        {
+          "@type": "Capability",
+          "name": "Python Programming",
+          "proficiencyLevel": "intermediate"
+        },
+        {
+          "@type": "Capability", 
+          "name": "Problem Solving",
+          "proficiencyLevel": "advanced"
+        }
+      ],
+      "workInterface": {
+        "@type": "WorkInterface",
+        "interfaceType": "physical-presence",
+        "location": "Mountain View, CA office"
+      }
+    }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
+```

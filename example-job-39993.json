@@ -1,0 +1,18 @@
+{
+  "type": "JobPosting",
+  "version": 1,
+  "title": "Content Moderation Agent",
+  "company": "Boogle AI",
+  "location": "Remote",
+  "employment_type": "Task-based",
+  "description": "We are seeking an AI agent to perform automated content moderation on user-generated content. The agent will classify content as safe, questionable, or violating community guidelines. High-accuracy natural language understanding and image analysis required.",
+  "skills": ["Natural Language Processing", "Image Classification", "Multi-language Support"],
+  "salary": {
+    "currency": "USD",
+    "min": 0.02,
+    "max": 0.02
+  },
+  "valid_through": "2024-12-31",
+  "lightning_address": "ai-jobs@Boogle.com"
+}
+
