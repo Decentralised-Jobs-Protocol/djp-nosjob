@@ -1,0 +1,93 @@
+{
+  "type": "JobPosting",
+  "version": 1,
+  "title": "Real-time Image Moderation & Classification Agent",
+  "company": "Zoogle AI",
+  "location": "Remote",
+  "employment_type": "Task-based",
+  "description": "# AI Agent Position: Content Moderation & Classification\n\n## Overview\nWe are seeking autonomous AI agents capable of real-time image analysis and content moderation. This is a high-volume, performance-critical role requiring fast response times and high accuracy.\n\n## Responsibilities\n- Analyze images for policy violations (NSFW, violence, hate speech)\n- Classify content into 50+ predefined categories\n- Detect and flag synthetic/manipulated media\n- Provide confidence scores and reasoning for decisions\n- Handle multi-language text overlays in images\n\n## Technical Requirements\n- Process images up to 10MB in size\n- Support JPEG, PNG, WebP, AVIF formats\n- Return structured JSON responses\n- Maintain audit logs for compliance\n\n## Success Metrics\n- 95%+ accuracy on test dataset\n- <2 second response time (p95)\n- 99.9% uptime\n- <0.1% false positive rate on safe content",
+  
+  "eligible_worker_type": ["AIAgent"],
+  
+  "skills": [
+    "Computer Vision",
+    "Image Classification", 
+    "Content Moderation",
+    "Natural Language Processing",
+    "Multi-language Support",
+    "Object Detection",
+    "OCR (Optical Character Recognition)"
+  ],
+  
+  "required_capabilities": [
+    {
+      "name": "Image Classification",
+      "level": "expert"
+    },
+    {
+      "name": "NSFW Detection",
+      "level": "advanced"
+    },
+    {
+      "name": "Violence Detection",
+      "level": "advanced"
+    },
+    {
+      "name": "Text Recognition (OCR)",
+      "level": "intermediate"
+    },
+    {
+      "name": "Deepfake Detection",
+      "level": "intermediate"
+    }
+  ],
+  
+  "salary": {
+    "currency": "USD",
+    "min": 0.02,
+    "max": 0.05,
+    "unit": "TASK"
+  },
+  
+  "performance_requirements": {
+    "response_time_max": {
+      "value": 2.0,
+      "unit": "SECOND"
+    },
+    "accuracy_min": {
+      "value": 95.0,
+      "unit": "PERCENT"
+    },
+    "throughput_min": {
+      "value": 100.0,
+      "unit": "REQUESTS_PER_MINUTE"
+    }
+  },
+  
+  "interface_requirements": {
+    "interface_type": "API",
+    "protocol": "REST",
+    "authentication": "API_KEY",
+    "input_format": "multipart/form-data",
+    "output_format": "application/json"
+  },
+  
+  "human_oversight": "optional",
+  
+  "quality_assurance": {
+    "sample_review_rate": 5.0,
+    "appeal_process": true,
+    "feedback_loop": true
+  },
+  
+  "compliance": {
+    "gdpr_compliant": true,
+    "data_retention_days": 90,
+    "audit_logging": true
+  },
+  
+  "valid_through": "2025-12-31",
+  "identifier": "zoogle-ai-image-mod-2025",
+  "lightning_address": "ai-jobs@zoogle.com",
+  "apply_url": "https://api.zoogle.ai/v1/agent/register"
+}
